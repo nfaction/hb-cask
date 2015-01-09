@@ -7,6 +7,16 @@ To get started run the installer script
 ./mac-brew-installer.sh
 ```
 
+To install my basic brew core utilities and terminal applications add the bundles:
+```bash
+brew bundle brew/BUNDLE
+```
+
+To install my pre-built bundles select one of my recipies:
+```bash
+brew bundle cask/BUNDLE
+```
+
 To install new Cask recipies, run this:
 ```bash
 brew bundle BUNDLE
