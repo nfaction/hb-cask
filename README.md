@@ -21,3 +21,6 @@ To install new Cask recipies, run this:
 ```bash
 brew bundle BUNDLE
 ```
+# Resources
+* Homebrew: [http://brew.sh/]
+* Homebrew Cask: [https://github.com/caskroom/homebrew-cask]
