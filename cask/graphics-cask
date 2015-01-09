@@ -1,0 +1,14 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Graphics)
+##
+cask install inkscape
+cask install gimp
+cask install omnigraffle
+cask install picasa
+cask install sketchup
+cask install sketchupviewer

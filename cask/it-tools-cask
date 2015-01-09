@@ -1,0 +1,26 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (IT Tools)
+##
+cask install geekbench
+cask install mac-linux-usb-loader
+cask install unetbootin
+cask install superduper
+cask install carbon-copy-cloner
+cask install synergy
+cask install wireshark
+cask install chrome-remote-desktop-host
+
+##
+## Optional unused tools
+##
+# cask install gfxcardstatus
+# cask install macs-fan-control
+# cask install smcfancontrol
+# cask install menumeters
+# cask install istat-menus
+# cask install no-ip-duc

@@ -1,0 +1,32 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Core)
+##
+cask install google-chrome
+cask install xquartz
+cask install appcleaner
+cask install caffeine
+cask install flash
+cask install java
+cask install firefox
+cask install skype
+cask install teamviewer
+cask install ccleaner
+cask install vlc
+cask install iterm2
+cask install the-unarchiver
+cask install adobe-air
+cask install archiver
+cask install cheatsheet
+cask install clipmenu
+cask install flip4mac
+cask install quicklook-csv
+cask install quicklook-json
+cask install alfred
+cask install sublime-text
+cask install shortcat
+cask install alinof-timer

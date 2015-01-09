@@ -1,0 +1,14 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Gaming)
+##
+cask install dolphin
+cask install dosbox
+cask install steam
+cask install logmein-hamachi
+cask install minecraft
+cask install snes9x

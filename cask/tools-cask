@@ -1,0 +1,16 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Optional)
+##
+cask install virtualbox
+cask install chicken
+cask install macupdate-desktop
+cask install sshfs
+cask install cord
+cask install cyberduck
+cask install boxcryptor-classic
+cask install joinme

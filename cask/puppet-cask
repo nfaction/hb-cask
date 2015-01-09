@@ -1,0 +1,11 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Puppet
+##
+cask install puppet
+cask install facter
+cask install hiera

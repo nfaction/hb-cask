@@ -1,0 +1,15 @@
+##
+## Install command line tools (Core)
+##
+install wget
+install bash
+install bash-completion
+install binutils
+install coreutils
+install gdbm
+install gnu-sed
+install nmap
+install python3
+install readline
+install ffmpeg
+install findutils

@@ -1,0 +1,18 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Programming)
+##
+cask install macvim
+cask install dash
+cask install arduino
+cask install graphviz
+cask install processing
+cask install pandoc
+cask install xampp
+cask install vagrant
+cask install github
+cask install p4merge

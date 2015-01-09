@@ -1,0 +1,14 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Music)
+##
+install pianobar
+cask install cog
+cask install pandora
+cask install spotify
+cask install audacity
+cask install hermes

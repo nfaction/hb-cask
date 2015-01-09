@@ -1,0 +1,6 @@
+##
+## Install command line tools (Extras)
+##
+install openssl
+install pkg-config
+install wakeonlan
