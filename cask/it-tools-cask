@@ -14,6 +14,7 @@ cask install carbon-copy-cloner
 cask install synergy
 cask install wireshark
 cask install chrome-remote-desktop-host
+cask install recovery-disk-assistant
 
 ##
 ## Optional unused tools
