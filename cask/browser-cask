@@ -1,0 +1,10 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Core)
+##
+cask install google-chrome
+cask install firefox
