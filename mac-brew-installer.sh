@@ -2,14 +2,14 @@
 
 xcode-select --install
 
-echo "Installing Mac OSX recommended updates..."
-sudo softwareupdate --install -r
-
 echo "Installing Homebrew..."
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-if [ $answer == 'y' ];then
-	brew install caskroom/cask/brew-cask
+echo "Install Cask -----------------------------"
+read -r -p "Are you sure? [y/N] " response
+if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]
+then
+    brew install caskroom/cask/brew-cask
 else
 	exit 1
 fi
