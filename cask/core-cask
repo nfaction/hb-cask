@@ -6,13 +6,11 @@ install caskroom/cask/brew-cask
 ##
 ## Install Casks (Core)
 ##
-cask install google-chrome
 cask install xquartz
 cask install appcleaner
 cask install caffeine
 cask install flash
 cask install java
-cask install firefox
 cask install skype
 cask install teamviewer
 cask install ccleaner
