@@ -1,0 +1,10 @@
+#################
+## Install Cask #
+#################
+install caskroom/cask/brew-cask
+
+##
+## Install Casks (Video)
+##
+cask install plex-home-theater
+cask install vlc

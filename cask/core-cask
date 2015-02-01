@@ -14,7 +14,6 @@ cask install java
 cask install skype
 cask install teamviewer
 cask install ccleaner
-cask install vlc
 cask install iterm2
 cask install the-unarchiver
 cask install adobe-air
