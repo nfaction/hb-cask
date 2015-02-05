@@ -1,0 +1,5 @@
+xcode-select --install
+curl -O -L http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg
+hdiutil mount git-2.2.1-intel-universal-mavericks.dmg
+sudo installer -pkg /Volumes/Git\ 2.2.1\ Mavericks\ Intel\ Universal/git-2.2.1-intel-universal-mavericks.pkg -target /
+hdiutil unmount /Volumes/Git\ 2.2.1\ Mavericks\ Intel\ Universal
