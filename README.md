@@ -2,6 +2,24 @@
 
 Homebrew is a powerful Mac package management system that is actively developed.  Cask is a recent addition that allows Mac GUI applications to be installed, updated and managed.
 
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/nfaction/hb-cask/master/pre-install)"
+```
+
+## Install Git on brand new machine
+### Install Xcode Command Line Tools
+```bash
+xcode-select --install
+```
+
+### Install Git command line tools
+```bash
+curl -O -L http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg
+hdiutil mount git-2.2.1-intel-universal-mavericks.dmg
+sudo installer -pkg /Volumes/Git\ 2.2.1\ Mavericks\ Intel\ Universal/git-2.2.1-intel-universal-mavericks.pkg -target /
+hdiutil unmount /Volumes/Git\ 2.2.1\ Mavericks\ Intel\ Universal
+```
+
 ## Install Homebrew
 
 To get started run the installer script
