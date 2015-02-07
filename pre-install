@@ -9,11 +9,13 @@ vers=$(sw_vers | grep "ProductVersion:" | cut -f2 | cut -f1-2 -d'.')
 # Perform Xcode Command Line Tools install per OS
 #
 if [ $vers == "10.6" ]
+then
 	# Pull down from SISTA website
 	echo "Not implemented for Snow Leopard"
 	echo "Please install Xcode and Xcode Commandline tools manually..."
 	exit 0
 elif [ $vers == "10.7" ]
+then
 	# Pull down from SISTA website
 	# curl -O -L http://w3.sista.arizona.edu/software/xcode462_cltools_10_76938260a.dmg
 	# Find way to curl down CLT for Lion, ML
@@ -21,6 +23,7 @@ elif [ $vers == "10.7" ]
 	echo "Please install Xcode and Xcode Commandline tools manually..."
 	exit 0
 elif [ $vers == "10.8" ]
+then
 	# Pull down from SISTA website
 	# curl -O -L http://w3.sista.arizona.edu/software/commandline_tools_os_x_mountain_lion_for_xcode__march_2014.dmg
 	echo "Not implemented for Mountain Lion"
@@ -35,6 +38,7 @@ subvers=$(sw_vers | grep "ProductVersion:" | cut -f2 | cut -f2 -d'.')
 echo "Installing Git..."
 
 if [ $subvers -lt 9 ]
+then
 	curl -O -L http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-snow-leopard.dmg
 	hdiutil mount git-2.2.1-intel-universal-snow-leopard.dmg
 	sudo installer -pkg /Volumes/Git\ 2.2.1\ Snow\ Leopard\ Intel\ Universal/git-2.2.1-intel-universal-snow-leopard.pkg -target /
