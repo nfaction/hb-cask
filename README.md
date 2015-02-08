@@ -2,9 +2,11 @@
 
 Homebrew is a powerful Mac package management system that is actively developed.  Cask is a recent addition that allows Mac GUI applications to be installed, updated and managed.
 
+## Install Xcode Command Line Tools and Xcode
+
 ```bash
-curl -O -L https://raw.githubusercontent.com/nfaction/hb-cask/master/pre-install
-./pre-install
+curl -O -L https://raw.githubusercontent.com/nfaction/hb-cask/master/pre-install.sh
+./pre-install.sh
 ```
 
 ## Install Homebrew
