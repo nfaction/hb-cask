@@ -8,9 +8,9 @@ Homebrew is a powerful Mac package management system that is actively developed.
 bash <(curl -s https://raw.githubusercontent.com/nfaction/hb-cask/master/pre-install.sh)
 ```
 
-## Download this repo
+## Download this repository and get Homebrew started
 ```bash
-git clone https://github.com/nfaction/hb-cask.git
+mkdir -p ~/bin && git clone https://github.com/nfaction/hb-cask.git
 ```
 
 ## Install Homebrew
