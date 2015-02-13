@@ -20,6 +20,7 @@ then
 	# Set ownership of new Caskroom for user.  (This will thow errors in doctor and will not allow casks to be installed correctly)
 	#
 	echo "Setting up brew cask's permissions/directories..."
+	mkdir -p /etc/Caskroom
 	MY_UID=$(id -u)
 	sudo chown $MY_UID /etc/Caskroom
 else
@@ -32,6 +33,9 @@ fi
 # Run Brew Doctor and resolve all issues
 #
 brew doctor
+
+echo "It is highly recommended that you resolve all 'brew doctor' issues now, and then run:"
+echo "brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup"
 
 exit 0
 
