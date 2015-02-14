@@ -6,11 +6,18 @@
 vers=$(sw_vers | grep "ProductVersion:" | cut -f2 | cut -f1-2 -d'.')
 
 #
+# Change directory into Downloads for work below
+#
+cd ~/Downloads
+
+#
 # Perform Xcode Command Line Tools install per OS
 #
 if [ $vers == "10.6" ]
 then
 	# Pull down from SISTA website
+	# curl -O -L http://w3.sista.arizona.edu/software/xcode_3.2.6_and_ios_sdk_4.3.dmg
+	# hdiutil mount xcode_3.2.6_and_ios_sdk_4.3.dmg
 	echo "Not implemented for Snow Leopard"
 	echo "Please install Xcode and Xcode Commandline tools manually..."
 	exit 0
@@ -18,7 +25,7 @@ elif [ $vers == "10.7" ]
 then
 	# Pull down from SISTA website
 	# curl -O -L http://w3.sista.arizona.edu/software/xcode462_cltools_10_76938260a.dmg
-	# Find way to curl down CLT for Lion, ML
+	# hdiutil mount xcode462_cltools_10_76938260a.dmg
 	echo "Not implemented for Lion"
 	echo "Please install Xcode and Xcode Commandline tools manually..."
 	exit 0
@@ -26,6 +33,7 @@ elif [ $vers == "10.8" ]
 then
 	# Pull down from SISTA website
 	# curl -O -L http://w3.sista.arizona.edu/software/commandline_tools_os_x_mountain_lion_for_xcode__march_2014.dmg
+	# hdiutil mount commandline_tools_os_x_mountain_lion_for_xcode__march_2014.dmg
 	echo "Not implemented for Mountain Lion"
 	echo "Please install Xcode and Xcode Commandline tools manually..."
 	exit 0
