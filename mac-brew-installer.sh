@@ -3,6 +3,11 @@
 echo "Installing Homebrew..."
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+#
+# Ensure that this profile uses Homebrew's path instead of the OS X Builtin stuff
+#
+echo export PATH='/usr/local/bin:$PATH' >> ~/.bash_profile
+
 echo "Setting up 'brew bundle'..."
 brew tap homebrew/boneyard
 
@@ -20,7 +25,7 @@ then
 	# Set ownership of new Caskroom for user.  (This will thow errors in doctor and will not allow casks to be installed correctly)
 	#
 	echo "Setting up brew cask's permissions/directories..."
-	mkdir -p /etc/Caskroom
+	sudo mkdir -p /etc/Caskroom
 	MY_UID=$(id -u)
 	sudo chown $MY_UID /etc/Caskroom
 else
@@ -28,6 +33,8 @@ else
 	echo "Please run 'brew doctor' and resolve all issues manually"
 	exit 0
 fi
+
+source ~/.bash_profile
 
 #
 # Run Brew Doctor and resolve all issues

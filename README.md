@@ -10,7 +10,7 @@ bash <(curl -s https://raw.githubusercontent.com/nfaction/hb-cask/master/pre-ins
 
 ## Download this repository and get Homebrew started
 ```bash
-mkdir -p ~/bin && git clone https://github.com/nfaction/hb-cask.git
+mkdir -p ~/bin && cd ~/bin && git clone https://github.com/nfaction/hb-cask.git &&  cd ~/hb-cask/
 ```
 
 ## Install Homebrew
