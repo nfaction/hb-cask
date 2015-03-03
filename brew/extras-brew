@@ -5,3 +5,4 @@ install openssl
 install pkg-config
 install wakeonlan
 install testdisk
+install pdfgrep
