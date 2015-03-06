@@ -19,6 +19,7 @@ install wakeonlan
 install testdisk
 install pdfgrep
 install pianobar
+install irods
 
 ##
 ## Install Casks
