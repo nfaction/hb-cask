@@ -13,3 +13,4 @@ install python3
 install readline
 install ffmpeg
 install findutils
+install tree
