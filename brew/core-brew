@@ -14,3 +14,4 @@ install readline
 install ffmpeg
 install findutils
 install tree
+install md5deep
