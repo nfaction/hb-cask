@@ -77,6 +77,7 @@ cask install dash
 cask install pandoc
 cask install vagrant
 cask install github
+cask install rdm
 cask install p4merge
 cask install vlc
 cask install hipchat
