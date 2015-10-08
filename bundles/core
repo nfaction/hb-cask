@@ -1,6 +1,7 @@
 #####################################
 # Install command line tools (Core) #
 #####################################
+brew 'mosh'
 brew 'wget'
 brew 'bash'
 brew 'bash-completion'
