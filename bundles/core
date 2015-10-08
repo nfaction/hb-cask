@@ -1,0 +1,47 @@
+#####################################
+# Install command line tools (Core) #
+#####################################
+brew 'wget'
+brew 'bash'
+brew 'bash-completion'
+brew 'binutils'
+brew 'coreutils'
+brew 'gdbm'
+brew 'gnu-sed'
+brew 'nmap'
+brew 'python3'
+brew 'readline'
+brew 'ffmpeg'
+brew 'findutils'
+brew 'tree'
+brew 'md5deep'
+
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+########################
+# Install Casks (Core) #
+########################
+caak 'xquartz'
+caak 'appcleaner'
+caak 'caffeine'
+caak 'flash'
+caak 'java'
+caak 'skype'
+caak 'teamviewer'
+caak 'ccleaner'
+caak 'iterm2'
+caak 'the-unarchiver'
+caak 'adobe-air'
+caak 'archiver'
+caak 'cheatsheet'
+caak 'clipmenu'
+caak 'flip4mac'
+caak 'quicklook-csv'
+caak 'quicklook-json'
+caak 'alfred'
+caak 'sublime-text'
+caak 'shortcat'
+caak 'alinof-timer'
