@@ -1,0 +1,11 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##
+## Puppet
+##
+cask 'puppet'
+cask 'facter'
+cask 'hiera'

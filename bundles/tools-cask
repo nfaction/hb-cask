@@ -1,0 +1,16 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##
+## Install Casks (Optional)
+##
+cask 'virtualbox'
+cask 'chicken'
+cask 'macupdate-desktop'
+cask 'sshfs'
+cask 'cord'
+cask 'cyberduck'
+cask 'boxcryptor-classic'
+cask 'joinme'

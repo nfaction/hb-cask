@@ -1,0 +1,18 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##
+## Install Casks (Programming)
+##
+cask 'macvim'
+cask 'dash'
+cask 'arduino'
+cask 'graphviz'
+cask 'processing'
+cask 'pandoc'
+cask 'xampp'
+cask 'vagrant'
+cask 'github'
+cask 'p4merge'

@@ -1,0 +1,14 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##
+## Install Casks (Gaming)
+##
+cask 'dolphin'
+cask 'dosbox'
+cask 'steam'
+cask 'logmein-hamachi'
+cask 'minecraft'
+cask 'snes9x'

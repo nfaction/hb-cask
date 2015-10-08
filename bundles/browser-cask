@@ -1,0 +1,10 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##
+## Install Casks (Core)
+##
+cask 'google-chrome'
+cask 'firefox'

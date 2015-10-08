@@ -1,0 +1,14 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##
+## Install Casks (Graphics)
+##
+cask 'inkscape'
+cask 'gimp'
+cask 'omnigraffle'
+cask 'picasa'
+cask 'sketchup'
+cask 'sketchupviewer'

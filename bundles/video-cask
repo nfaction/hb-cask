@@ -1,0 +1,10 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##
+## Install Casks (Video)
+##
+cask 'plex-home-theater'
+cask 'vlc'
