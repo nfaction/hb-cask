@@ -1,0 +1,26 @@
+#######################################
+# Install command line tools (Extras) #
+#######################################
+brew 'openssl'
+brew 'pkg-config'
+brew 'wakeonlan'
+brew 'testdisk'
+brew 'pdfgrep'
+
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+##########################
+# Install Casks (Extras) #
+##########################
+cask 'evernote'
+cask 'dropbox'
+cask 'bettertouchtool'
+cask 'functionflip'
+cask 'box-sync'
+cask 'crashplan'
+cask 'google-drive'
+cask 'google-hangouts'
+cask '1password'
