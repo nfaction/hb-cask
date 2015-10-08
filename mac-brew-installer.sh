@@ -9,7 +9,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 echo export PATH='/usr/local/bin:$PATH' >> ~/.bash_profile
 
 echo "Setting up 'brew bundle'..."
-brew tap homebrew/boneyard
+brew tap Homebrew/bundle
 
 echo "Install Cask? -----------------------------"
 read -r -p "Are you sure? [y/N] " response
@@ -34,6 +34,7 @@ else
 	exit 0
 fi
 
+echo "Sourcing your .bash_profile..."
 source ~/.bash_profile
 
 #

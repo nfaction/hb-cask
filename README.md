@@ -20,6 +20,11 @@ To get started run the installer script
 ./mac-brew-installer.sh
 ```
 
+Reload your .bash_profile just to be sure
+```bash
+source ~/.bash_profile
+```
+
 ## Cleanup
 Be sure to resolve any errors and as many warnings as possible from the output of doctor.
 
@@ -43,18 +48,16 @@ sudo chown $MY_UID /etc/Caskroom
 
 To install my basic brew core utilities and terminal applications add the bundles:
 ```bash
-brew bundle brew/BUNDLE
+brew bundle --file=bundles/core
 ```
 
 To install my pre-built bundles select one of my recipies:
 ```bash
-brew bundle cask/BUNDLE
+brew bundle --file=bundles/BUNDLE
 ```
 
-To install new Cask recipies, run this:
-```bash
-brew bundle BUNDLE
-```
+
 # Resources
 * Homebrew: http://brew.sh/
 * Homebrew Cask: https://github.com/caskroom/homebrew-cask
+* Homebrew-Bundle: https://github.com/Homebrew/homebrew-bundle
