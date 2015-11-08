@@ -12,3 +12,5 @@ cask install steam
 cask install logmein-hamachi
 cask install minecraft
 cask install snes9x
+
+# cask install logitech-control-center
