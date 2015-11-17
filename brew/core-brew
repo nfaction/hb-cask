@@ -6,6 +6,7 @@ install bash
 install bash-completion
 install binutils
 install coreutils
+install fping
 install gdbm
 install gnu-sed
 install nmap
