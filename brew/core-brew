@@ -16,3 +16,5 @@ install ffmpeg
 install findutils
 install tree
 install md5deep
+install tmux
+install sshrc
