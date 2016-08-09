@@ -56,6 +56,11 @@ To install my pre-built bundles select one of my recipies:
 brew bundle --file=bundles/BUNDLE
 ```
 
+## Cleanup
+
+```
+brew linkapps
+```
 
 # Resources
 * Homebrew: http://brew.sh/
