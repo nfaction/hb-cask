@@ -51,13 +51,20 @@ then
 	hdiutil mount git-2.2.1-intel-universal-snow-leopard.dmg
 	sudo installer -pkg /Volumes/Git\ 2.2.1\ Snow\ Leopard\ Intel\ Universal/git-2.2.1-intel-universal-snow-leopard.pkg -target /
 	hdiutil unmount /Volumes/Git\ 2.2.1\ Snow\ Leopard\ Intel\ Universal/
-else
+
+elif [ $subvers -gt 8 ] && [ $subvers -lt 10 ]
+then
 	curl -O -L http://sourceforge.net/projects/git-osx-installer/files/git-2.2.1-intel-universal-mavericks.dmg
 	hdiutil mount git-2.2.1-intel-universal-mavericks.dmg
 	sudo installer -pkg /Volumes/Git\ 2.2.1\ Mavericks\ Intel\ Universal/git-2.2.1-intel-universal-mavericks.pkg -target /
 	hdiutil unmount /Volumes/Git\ 2.2.1\ Mavericks\ Intel\ Universal
-fi
 
+else
+	curl -O -L https://sourceforge.net/projects/git-osx-installer/files/git-2.18.0-intel-universal-mavericks.dmg
+	hdiutil mount git-2.18.0-intel-universal-mavericks.dmg
+	sudo installer -pkg /Volumes/Git\ 2.18.0\ Mavericks\ Intel\ Universal/git-2.18.0-intel-universal-mavericks.pkg -target /
+	hdiutil unmount /Volumes/Git\ 2.18.0\ Mavericks\ Intel\ Universal
+fi
 echo "Done..."
 
 exit 0

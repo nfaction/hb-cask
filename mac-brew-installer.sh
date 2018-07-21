@@ -19,7 +19,7 @@ then
     #
 	# Change default Cask path to /Applications, not ~/Applications
 	#
-	echo "export HOMEBREW_CASK_OPTS='--appdir=/Applications --caskroom=/etc/Caskroom'" >> ~/.bash_profile
+	echo "export HOMEBREW_CASK_OPTS='--appdir=/Applications'" >> ~/.bash_profile
 
 	#
 	# Set ownership of new Caskroom for user.  (This will thow errors in doctor and will not allow casks to be installed correctly)
