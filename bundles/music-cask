@@ -12,7 +12,6 @@ tap 'caskroom/cask'
 ## Install Casks (Music)
 ##
 cask 'cog'
-cask 'pandora'
 cask 'spotify'
 cask 'audacity'
 cask 'hermes'

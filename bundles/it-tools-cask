@@ -7,22 +7,22 @@ tap 'caskroom/cask'
 ## Install Casks (IT Tools)
 ##
 cask 'geekbench'
-cask 'mac-linux-usb-loader'
 cask 'unetbootin'
 cask 'superduper'
-cask 'carbon-copy-cloner'
 cask 'wireshark'
 cask 'chrome-remote-desktop-host'
 cask 'recovery-disk-assistant'
 cask 'vagrant'
 cask 'vagrant-manager'
-cask 'temperature-monitor'
+cask 'macs-fan-control'
 
 ##
 ## Optional unused tools
 ##
+# cask 'mac-linux-usb-loader' # Deprecated
 # cask 'gfxcardstatus'
 # cask 'macs-fan-control'
+# cask 'temperature-monitor'
 # cask 'smcfancontrol'
 # cask 'menumeters'
 # cask 'istat-menus'

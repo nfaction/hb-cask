@@ -15,12 +15,8 @@ tap 'caskroom/cask'
 ##########################
 # Install Casks (Extras) #
 ##########################
-cask 'evernote'
 cask 'dropbox'
-cask 'bettertouchtool'
-cask 'functionflip'
-cask 'box-sync'
-cask 'crashplan'
-cask 'google-drive'
+cask 'google-drive-file-stream'
 cask 'google-hangouts'
 cask '1password'
+cask 'quicksilver'

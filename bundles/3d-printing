@@ -4,7 +4,6 @@
 tap 'caskroom/cask'
 
 ##
-## Install Casks (Video)
+## Install Casks (3D Printing)
 ##
-cask 'plex-media-player'
-cask 'vlc'
+cask 'slic3r'

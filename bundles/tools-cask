@@ -3,14 +3,17 @@
 #################
 tap 'caskroom/cask'
 
+#######################################
+# Install command line tools (Extras) #
+#######################################
+cask 'osxfuse'
+brew 'sshfs'
+
 ##
 ## Install Casks (Optional)
 ##
 cask 'virtualbox'
 cask 'chicken'
 cask 'macupdate-desktop'
-cask 'sshfs'
 cask 'cord'
 cask 'cyberduck'
-cask 'boxcryptor-classic'
-cask 'joinme'
