@@ -1,3 +1,8 @@
+#######################################
+# Install command line tools (Extras) #
+#######################################
+brew 'wakeonlan'
+
 #################
 ## Install Cask #
 #################
@@ -14,6 +19,8 @@ cask 'chrome-remote-desktop-host'
 cask 'recovery-disk-assistant'
 cask 'vagrant'
 cask 'vagrant-manager'
+cask 'docker'
+cask 'docker-toolbox'
 cask 'macs-fan-control'
 
 ##
