@@ -13,6 +13,7 @@ tap 'caskroom/cask'
 ##
 cask 'geekbench'
 cask 'unetbootin'
+cask 'etcher'
 cask 'superduper'
 cask 'wireshark'
 cask 'chrome-remote-desktop-host'
@@ -27,7 +28,7 @@ cask 'macs-fan-control'
 ## Optional unused tools
 ##
 # cask 'mac-linux-usb-loader' # Deprecated
-# cask 'gfxcardstatus'
+cask 'gfxcardstatus'
 # cask 'macs-fan-control'
 # cask 'temperature-monitor'
 # cask 'smcfancontrol'

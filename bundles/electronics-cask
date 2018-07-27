@@ -1,0 +1,9 @@
+#################
+## Install Cask #
+#################
+tap 'caskroom/cask'
+
+#######################################
+# Install command line tools (Extras) #
+#######################################
+cask 'fritzing'

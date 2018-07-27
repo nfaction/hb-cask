@@ -6,6 +6,7 @@ brew 'pkg-config'
 brew 'wakeonlan'
 brew 'testdisk'
 brew 'pdfgrep'
+brew 'stoken'
 
 #################
 ## Install Cask #
@@ -20,3 +21,4 @@ cask 'google-drive-file-stream'
 cask 'google-hangouts'
 cask '1password'
 cask 'macdown'
+cask 'calibre'
